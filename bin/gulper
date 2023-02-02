@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var dev = require("node-dev");
+var which = require("npm-which")(process.cwd());
+var args = process.argv.slice(2);
+var error = {};
+
+which("gulp", function (errorx, path) {
+  if (error) {
+    return console.error(error.message);
+  } else {
+    dev(path, args, [], {});
+  }
+});

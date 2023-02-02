@@ -1,0 +1,27 @@
+{
+  "name": "tspace-gulper",
+  "version": "1.0.0",
+  "description": "Gulper is gulp.js task runner runner to restart on change gulpfile.js.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mitsunori KUBOTA",
+  "license": "MIT",
+  "preferGlobal": "true",
+  "repository": "https://github.com/anatoo/gulper.git",
+  "keywords": [
+    "gulp.js",
+    "gulp",
+    "task",
+    "runner",
+    "wrapper",
+    "restart"
+  ],
+  "bin": {
+    "gulper": "bin/gulper"
+  },
+  "dependencies": {
+    "node-dev": "^4.0.0",
+    "npm-which": "^3.0.1"
+  }
+}
